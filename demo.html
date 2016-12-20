@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>landmine</title>
+    <link rel="stylesheet" href="./css/landmine.css">
+</head>
+<body>
+        <div id="lan-wrap">
+                <div class="user-input">
+                        <input type="text" id="row" value="" placeholder="输入行数">
+                        <!-- <input type="text" id="col" value="" placeholder="列"> -->
+                        <button type="button" id="sub">确定</button>
+                        <div class="pattern">
+                                <i class="dropdown"></i>
+                                <p class="ctype">模式选择</p>
+                                <ul class="pa-ul">
+                                        <li>简单9*9(10)</li>
+                                        <li>普通16*16(40)</li>
+                                        <li>困难16*30(99)</li>
+                                </ul>
+                        </div>
+                </div>
+                <div id="lan-main" class="CLEAR"></div>
+        </div>
+</body>
+<script type="text/javascript" src="./js/landmine.js"></script>
+</html>
